@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property>
+        <name>writer_new_user</name>
+        <value>com.phone.analytic.mr.nu.NewUserOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_new_user</name>
+        <value>com.phone.analytic.mr.nu.BrowserNewUserOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_active_user</name>
+        <value>com.phone.analytic.mr.au.ActiveUserOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_active_user</name>
+        <value>com.phone.analytic.mr.au.ActiveUserOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_sessions</name>
+        <value>com.phone.analytic.mr.sessions.SessionsOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_sessions</name>
+        <value>com.phone.analytic.mr.sessions.SessionsOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_new_member</name>
+        <value>com.phone.analytic.mr.nm.NewMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_new_member</name>
+        <value>com.phone.analytic.mr.nm.NewMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_insert_member_info</name>
+        <value>com.phone.analytic.mr.nm.NewMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_active_member</name>
+        <value>com.phone.analytic.mr.am.ActiveMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_active_member</name>
+        <value>com.phone.analytic.mr.am.ActiveMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_hourly_active_user</name>
+        <value>com.phone.analytic.mr.au.ActiveUserOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_hourly_sessions</name>
+        <value>com.phone.analytic.mr.sessions.HourlySessionsOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_hourly_sessions_length</name>
+        <value>com.phone.analytic.mr.sessions.HourlySessionsOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writer_website_pv</name>
+        <value>com.phone.analytic.mr.pv.PageViewOutputWriter</value>
+    </property>
+
+
+    <property>
+        <name>writer_location</name>
+        <value>com.phone.analytic.mr.location.LocationOutputWriter</value>
+    </property>
+
+</configuration>
